@@ -34,8 +34,9 @@ os.path.dirname(path)
 os.path.split(path)
 # output is: ('/users/projects/automate-boring-stuff-python', 'rd-wr-files.py')
 
-
-os.path.getsize('/users/projects/automate-boring-stuff-python/rd-wr-files.py')
+# returns file size
+calcFileSize = '/Users/samatkins/Documents/'
+os.path.getsize(calcFileSize)
 
 # adds path to list myFiles
 myFiles = ['accounts.txt', 'cv.docx']
