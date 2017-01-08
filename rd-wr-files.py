@@ -21,6 +21,22 @@ os.path.abspath('.')
 # returns True if argument is an absolute path and False if a relative path
 os.path.isabs('.')
 
+# returns the relative path
+os.path.relpath('/users/projects', '/automate-boring-stuff-python')
+# output is: '../users/projects'
+
+# returns the base path
+path = '/users/projects/automate-boring-stuff-python/rd-wr-files.py'
+os.path.basename(path)
+# output is: 'rd-wr-files.py'
+os.path.dirname(path)
+# output is: '/users/projects/automate-boring-stuff-python'
+os.path.split(path)
+# output is: ('/users/projects/automate-boring-stuff-python', 'rd-wr-files.py')
+
+
+os.path.getsize('/users/projects/automate-boring-stuff-python/rd-wr-files.py')
+
 # adds path to list myFiles
 myFiles = ['accounts.txt', 'cv.docx']
 for filename in myFiles:
