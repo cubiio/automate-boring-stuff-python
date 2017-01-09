@@ -1,5 +1,5 @@
-#! Python 3
-# Set-up of a new project
+#! /usr/bin/env python3
+# nproject.py - Set-up of a new project
 
 # [START imports]
 import os
